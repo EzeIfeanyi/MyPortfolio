@@ -1,0 +1,9 @@
+﻿.object-fit-cover {
+    object-fit: cover;
+}
+
+@media (max-width: 750px) {
+    .card {
+        
+    }
+}
