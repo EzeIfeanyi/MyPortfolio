@@ -10,8 +10,8 @@ namespace MVCProjectPractice
             try
             {
                 string GmailAccount = "IfeanyiEze8899@gmail.com";
-                string GmailPassword = "";
-                string ToEmail = "Ezegwuonwu.Ifeanyi@gmail.com";
+                string GmailPassword = "xngawqqsqapqbpxk";
+                string ToEmail = "OkaforSamuel1000@gmail.com";
 
                 MailMessage myMail = new MailMessage(GmailAccount, ToEmail);
                 myMail.Subject = Subject;

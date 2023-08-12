@@ -5,7 +5,6 @@ namespace MVCProjectPractice.Models
     public class EmailViewModel
     {
         [Required(ErrorMessage = "Please enter your name")]
-        [RegularExpression(@"[a-zA-Z]+\s[a-zA-Z]+", ErrorMessage ="Please enter your fullname, eg; John Doe")]
         [StringLength(50)]
         [Display(Name = "FullName")]
         public string Fullname { get; set; }
@@ -17,7 +16,7 @@ namespace MVCProjectPractice.Models
             ErrorMessage = "The email address is not entered in a correct format")]
         public string Email { get; set; }
 
-        public string PhoneNumber { get; set; }
+        //public string PhoneNumber { get; set; }
 
         [StringLength(300, MinimumLength =2)]
         [Display(Name = "Message")]

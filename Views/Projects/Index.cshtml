@@ -10,23 +10,19 @@
                 <!-- Project Card 1-->
                 @foreach (var project in Model.Projects)
                 {
-                    <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
-                        <div class="row h-100">
-                            <div class="col-md-5 p-0" style="height: 100%;">
-                                <!-- Set height to 100% -->
-                                <div class="d-flex justify-content-center h-100 w-100">
-                                    <!-- Set height to 100% -->
+                    <div class="card overflow-hidden shadow rounded-4 border-0 mb-5" style="height: 300px">
+                        <div class="row h-100" >
+                            <div class="col-md-5 p-0" >
+                                <div class="d-flex h-100 w-100">
                                     <img class="img-fluid object-fit-cover w-100 h-100" src="@project.ImageUrl" alt="@project.Name" />
                                 </div>
                             </div>
                             <div class="col-md-7 d-flex flex-column flex-shrink-1" style="height: 100%;">
-                                <!-- Set height to 100% -->
                                 <div class="p-5 h-100">
-                                    <!-- Set height to 100% -->
                                     <h2 class="fw-bolder mb-3">@project.Name</h2>
-                                    <p>@project.Description</p>
+                                    <p style="line-height: 1.5em">@project.Description</p>
                                     <a class="btn btn-outline-primary mt-2" href="@project.ProjectUrl">
-                                        <i class="bi bi-code"></i> View
+                                        <i class="bi bi-link"></i> View
                                     </a>
                                 </div>
                             </div>

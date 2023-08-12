@@ -14,14 +14,23 @@ namespace MVCProjectPractice.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Index(EmailViewModel model)
         {
-            var message = model.Fullname + ";" + model.Email + ";" + model.PhoneNumber + ";" + model.Message;
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var message = "Message From: " + model.Fullname + "/n/r" + "Sender Email: " 
+                + model.Email + "/n/r" + "Content: " + model.Message;
+
             var result = Email.Send("Email from Portfolio", message, null);
 
             if (string.IsNullOrEmpty(result))
             {
+                TempData["success"] = "Email sent successfully";
                 return RedirectToAction("Index");
             }
-            return View(model);
+            TempData["failure"] = "Unable to send email to recipient";
+            return View();
         }
     }
 }

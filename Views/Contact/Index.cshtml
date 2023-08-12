@@ -1,6 +1,6 @@
 ﻿@model EmailViewModel
 
-
+<partial name="_Notifications" />
 <section class="py-5">
     <div class="container px-5">
         <!-- Contact form-->
@@ -22,27 +22,27 @@
                     <form id="contactForm" method="post" asp-action="Index" role="form">
                         <!-- Name input-->
                         <div class="form-floating mb-3">
-                            <input class="form-control" id="name" type="text" placeholder="Enter your name..." asp-for="Fullname" />
+                            <input class="form-control" id="name" type="text" placeholder="Enter your name..." asp-for="Fullname"/>
                             <label asp-for="Fullname" class="form-label">Full name</label>
-                            <span class="invalid-feedback" asp-validation-for="Fullname"></span>
+                            <span class="text-danger" asp-validation-for="Fullname"></span>
                         </div>
                         <!-- Email address input-->
                         <div class="form-floating mb-3">
                             <input class="form-control" id="email" type="email" placeholder="name@example.com" asp-for="Email" />
                             <label asp-for="Email">Email address</label>
-                            <span class="invalid-feedback" asp-validation-for="Email"></span>
+                            <span class="text-danger" asp-validation-for="Email"></span>
                         </div>
                         <!-- Phone number input-->
-                        <div class="form-floating mb-3">
+                        @*<div class="form-floating mb-3">
                             <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" asp-for="PhoneNumber" />
                             <label asp-for="PhoneNumber">Phone number</label>
-                            <span class="invalid-feedback" asp-validation-for="PhoneNumber"></span>
-                        </div>
+                            <span class="text-danger" asp-validation-for="PhoneNumber"></span>
+                        </div>*@
                         <!-- Message input-->
                         <div class="form-floating mb-3">
                             <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" asp-for="Message" ></textarea>
                             <label asp-for="Message">Message</label>
-                            <span class="invalid-feedback" asp-validation-for="Message"></span>
+                            <span class="text-danger" asp-validation-for="Message"></span>
                         </div>
                         <!-- Submit success message-->
                         <!---->
@@ -70,3 +70,9 @@
         </div>
     </div>
 </section>
+
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}
