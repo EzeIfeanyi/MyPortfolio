@@ -16,7 +16,7 @@
                 new Project
                 {
                     Name = "Flight Booking",
-                    Description = "Using AngularJS as the frontend client, users can search for available flights, consuming ASP.NET Core REST API.",
+                    Description = "Using ASP.NET Core with Angular, users can search and book available flights. EntityFramework Core is used for Data access to the SQLServer.",
                     ImageUrl = "/assets/flight.png",
                     ProjectUrl = "https://github.com/EzeIfeanyi/FlightSearch"
                 },

@@ -22,7 +22,7 @@ namespace MVCProjectPractice.Controllers
             var message = "Message From: " + model.Fullname + "/n/r" + "Sender Email: " 
                 + model.Email + "/n/r" + "Content: " + model.Message;
 
-            var result = Email.Send("Email from Portfolio", message, null);
+            var result = Email.Send("Email from Portfolio", message);
 
             if (string.IsNullOrEmpty(result))
             {

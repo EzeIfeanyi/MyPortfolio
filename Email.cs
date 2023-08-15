@@ -5,12 +5,12 @@ namespace MVCProjectPractice
 {
     public class Email : IMail
     {
-        public static string Send(string Subject, string Body, string AttachmentPath)
+        public static string Send(string Subject, string Body, string AttachmentPath = "")
         {
             try
             {
                 string GmailAccount = "IfeanyiEze8899@gmail.com";
-                string GmailPassword = "";
+                string GmailPassword = "xngawqqsqapqbpxk";
                 string ToEmail = "OkaforSamuel1000@gmail.com";
 
                 MailMessage myMail = new MailMessage(GmailAccount, ToEmail);
