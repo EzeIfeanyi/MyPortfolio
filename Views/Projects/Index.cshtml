@@ -18,12 +18,14 @@
                                 </div>
                             </div>
                             <div class="col-md-7 d-flex flex-column flex-shrink-1" style="height: 100%;">
-                                <div class="p-5 h-100">
-                                    <h2 class="fw-bolder mb-3">@project.Name</h2>
-                                    <p style="line-height: 1.5em">@project.Description</p>
-                                    <a class="btn btn-outline-primary mt-2" href="@project.ProjectUrl">
-                                        <i class="bi bi-link"></i> View
-                                    </a>
+                                <div class="p-5 h-100 d-flex flex-column justify-content-between">
+                                    <div><h2 class="fw-bolder mb-3">@project.Name</h2></div>
+                                    <div><p style="line-height: 1.5em">@project.Description</p></div>
+                                    <div>
+                                        <a class="btn btn-outline-primary mt-2" href="@project.ProjectUrl">
+                                            <i class="bi bi-link"></i> View
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
