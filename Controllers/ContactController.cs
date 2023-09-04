@@ -19,8 +19,7 @@ namespace MVCProjectPractice.Controllers
                 return BadRequest(ModelState);
             }
 
-            var message = "Message From: " + model.Fullname + "/n/r" + "Sender Email: " 
-                + model.Email + "/n/r" + "Content: " + model.Message;
+            var message = $"<div><p><strong>Message From: </strong> {model.Fullname}</p> <p><strong>Sender Email: </strong> {model.Email}</p> <p><strong>Content: </strong> {model.Message}</p></div>";
 
             var result = Email.Send("Email from Portfolio", message);
 
