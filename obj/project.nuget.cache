@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "psoc0WoH1W/9llxZ0B1gYB5Q/EV9d2y/Ueyr6tYs27V6bdOsXt2s2M+fyfaTuU9g0+osFdkBPSoU0kPjGgoeMw==",
+  "dgSpecHash": "5BtvUmRQq+QjdJLnavF5TbbH9Qh4ghfMGR2edQPIiqzHHT2Gl4tibhmkWqol2kLKZTq37U0qQwdhtcgn4wOuTg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Decagon\\source\\repos\\MVCProjectPractice\\MVCProjectPractice\\MVCProjectPractice.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Decagon\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.9\\microsoft.windowsdesktop.app.ref.7.0.9.nupkg.sha512",
+    "C:\\Users\\Decagon\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.9\\microsoft.netcore.app.ref.7.0.9.nupkg.sha512",
+    "C:\\Users\\Decagon\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.9\\microsoft.aspnetcore.app.ref.7.0.9.nupkg.sha512",
+    "C:\\Users\\Decagon\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.9\\microsoft.netcore.app.host.win-x64.7.0.9.nupkg.sha512"
+  ],
   "logs": []
 }

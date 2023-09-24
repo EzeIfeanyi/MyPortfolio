@@ -1,4 +1,3 @@
-C:\Users\Decagon\source\repos\MVCProjectPractice\MVCProjectPractice\obj\Debug\net7.0\MVCProjectPractice.csproj.AssemblyReference.cache
 C:\Users\Decagon\source\repos\MVCProjectPractice\MVCProjectPractice\obj\Debug\net7.0\MVCProjectPractice.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Decagon\source\repos\MVCProjectPractice\MVCProjectPractice\obj\Debug\net7.0\MVCProjectPractice.AssemblyInfoInputs.cache
 C:\Users\Decagon\source\repos\MVCProjectPractice\MVCProjectPractice\obj\Debug\net7.0\MVCProjectPractice.AssemblyInfo.cs
@@ -30,3 +29,4 @@ C:\Users\Decagon\source\repos\MVCProjectPractice\MVCProjectPractice\obj\Debug\ne
 C:\Users\Decagon\source\repos\MVCProjectPractice\MVCProjectPractice\obj\Debug\net7.0\MVCProjectPractice.pdb
 C:\Users\Decagon\source\repos\MVCProjectPractice\MVCProjectPractice\obj\Debug\net7.0\MVCProjectPractice.genruntimeconfig.cache
 C:\Users\Decagon\source\repos\MVCProjectPractice\MVCProjectPractice\obj\Debug\net7.0\ref\MVCProjectPractice.dll
+C:\Users\Decagon\source\repos\MVCProjectPractice\MVCProjectPractice\obj\Debug\net7.0\MVCProjectPractice.sourcelink.json
